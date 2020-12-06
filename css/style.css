@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    min-width: 360px;
+}
+
+#top-nav {
+    background-color: #57ba21;
+    margin-top: 10px;
+}
+
+.logo-container {
+    padding: 20px 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo-container img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome-heading {
+    font-weight: 600;
+    line-height: 0.2;
+}
+
+#offer-box {
+    background-color: #ececec;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#offer-box p {
+    font-size: 0.7rem;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-weight: 650;
+    color: #555555;
+}
+
+.red-text {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#images img {
+    width: 30%;
+}
+
+#footer {
+    display: flex;
+}
+
+#footer img {
+    width: 90%;
+}
+
+#footer p {
+    font-size: 12px;
+    font-weight: 700;
+}
